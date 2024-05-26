@@ -7,7 +7,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [
-    inertia({ ssr: { enabled: false, entrypoint: 'inertia/app/ssr.tsx' } }),
+    inertia({ ssr: { enabled: false /*entrypoint: 'inertia/app/ssr.tsx'*/ } }),
     react(),
     adonisjs({ entrypoints: ['inertia/app/app.tsx'], reload: ['resources/views/**/*.edge'] }),
   ],
