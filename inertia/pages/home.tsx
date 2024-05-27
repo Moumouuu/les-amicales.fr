@@ -9,14 +9,15 @@ import { TextRevealWord } from '~/components/home/text_reveal_word'
 export default function Home() {
   return (
     <>
-      <Head title="Homepage" />
+      <Head title="Homepage" >
+            <script defer src="https://umami-yck480o.5.75.226.51.sslip.io/script.js" data-website-id="c4104235-4d45-4d02-9399-6e9953755ec8"></script>
+      </Head>
       <Hero />
       <Companies />
       <TextRevealWord />
       <FAQ />
       <LastCallToAction />
       <Footer />
-      <script defer src="https://umami-yck480o.5.75.226.51.sslip.io/script.js" data-website-id="c4104235-4d45-4d02-9399-6e9953755ec8"></script>
     </>
   )
 }
