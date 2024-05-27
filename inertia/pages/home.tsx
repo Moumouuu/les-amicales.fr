@@ -16,6 +16,7 @@ export default function Home() {
       <FAQ />
       <LastCallToAction />
       <Footer />
+      <script defer src="https://umami-yck480o.5.75.226.51.sslip.io/script.js" data-website-id="c4104235-4d45-4d02-9399-6e9953755ec8"></script>
     </>
   )
 }
