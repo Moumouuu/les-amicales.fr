@@ -29,11 +29,11 @@ export function Hero() {
           <div className="mt-20 grid grid-cols-1">
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
               <span>✨Saison 2023-2024 </span>
-              <img src="https://amicales-rsk.vlamynck.fr/src/img/Ballon_tr2.png" alt="logo" className="w-10 h-10" />
-              
+              <img src="https://amicales-rsk.vlamynck.fr/src/img/Ballon_tr2.png" alt="logo" 
+              className="nline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400 w-8 h-8" />     
             </AnimatedShinyText>
             <div className="flex flex-col items-center gap-6 pb-8 text-center">
-            <img src="https://amicales-rsk.vlamynck.fr/src/img/Logo_tr.png" alt="logo" className="w-80 h-80" />
+            <img src="https://amicales-rsk.vlamynck.fr/src/img/Logo_tr.png" alt="logo" className="w-60 h-80" />
               <motion.h1
                 ref={fadeInRef}
                 className="text-balance bg-gradient-to-br from-black from-30%  to-black/60 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent  text-black  sm:text-6xl md:text-7xl lg:text-8xl"

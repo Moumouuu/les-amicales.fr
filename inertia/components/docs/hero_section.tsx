@@ -28,7 +28,7 @@ export function Hero() {
         <div className="container z-10 flex flex-col">
           <div className="mt-20 grid grid-cols-1">
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-              <span>✨Saison 2023-2024 </span>
+              <span>✨Documentation</span>
               <img src="https://amicales-rsk.vlamynck.fr/src/img/Logo_tr.png" alt="logo" className="w-4 h-4" />
               
             </AnimatedShinyText>
@@ -47,7 +47,7 @@ export function Hero() {
                   type: 'spring',
                 }}
               >
-                Une ligue, des robots <br /> <span className="font-semibold">une équipe !</span>
+                Ici vous retrouverez notre moteur de recherche <br /> <span className="font-semibold">spécialisé robotique !</span>
               </motion.h1>
 
               <motion.p
@@ -62,8 +62,8 @@ export function Hero() {
                   type: 'spring',
                 }}
               >
-                Un projet de bac -8 à bac +8 ouvert à toutes les ligues de la robocup.
-              </motion.p>
+                Nous travailons dur pour vous fournir les meilleures ressources, les plus récentes et les plus pertinentes pour vous aider à trouver ce que vous cherchez en un temps record.
+                    </motion.p>
 
               <motion.div
                 animate={fadeInInView ? 'animate' : 'initial'}
@@ -90,7 +90,7 @@ export function Hero() {
                     'transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-2'
                   )}
                 >
-                  Participer
+                  Participer aux amicales <ArrowRightIcon className="size-4 translate-x-0 transition-all duration-300 ease-out group-hover:translate-x-1" />
                   <ChevronRight className="size-4 translate-x-0 transition-all duration-300 ease-out group-hover:translate-x-1" />
                 </a>
               </motion.div>
@@ -122,7 +122,7 @@ export function Hero() {
               autoPlay
               loop
               muted
-              src="/videos/video.mov"
+              src="https://www.youtube.com/watch?v=N2fMqyN_Ips"
               className="rounded-xl w-full aspect-video object-cover"
             />
 
