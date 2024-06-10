@@ -32,7 +32,7 @@ const footerNavs = [
         name: 'Blog',
       },
       {
-        href: 'birds-audiovisuel.fr/contact',
+        href: '//birds-audiovisuel.fr/contact',
         name: 'Contact',
       },
     ],
