@@ -6,7 +6,7 @@ import { LastCallToAction } from '~/components/home/last_cta'
 import { Companies } from '~/components/home/social_proof'
 import { TextRevealWord } from '~/components/home/text_reveal_word'
 
-export default function Home() {
+export default function docs() {
   return (
     <>
       <Head title="Documentation" >
