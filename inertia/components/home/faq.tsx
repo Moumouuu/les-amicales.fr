@@ -9,7 +9,7 @@ const faqs = [
         answer: (
           <span>
             C'est un projet à but pédagogique qui a pour objectif de réunir des jeunes de niveau
-            bac-8 à bac+8 autour des différentes ligues de la robotique. Nous intervenons dans
+            bac -8 à bac +8 autour des différentes ligues de la robotique. Nous intervenons dans
             différents établissements scolaires pour faire découvrir la robotique et l'informatique
             aux jeunes, ou encore pour les aider à préparer des compétitions. Nous proposons deux
             formats de rencontres : à la journée ou à la demi-journée.

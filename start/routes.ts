@@ -12,3 +12,7 @@ import router from '@adonisjs/core/services/router'
 router.get('/', async ({ inertia }) => {
   return inertia.render('home')
 })
+
+router.get('/docs', async ({ inertia }) => {
+  return inertia.render('docs')
+})
