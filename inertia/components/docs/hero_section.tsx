@@ -121,12 +121,10 @@ export function Hero() {
               autoPlay
               loop
               muted
-              title="Les amicales nouveau festival" 
               src="https://www.youtube.com/embed/N2fMqyN_Ips"
               className="rounded-xl w-full aspect-video object-cover"
             />
-<iframe width="1259" height="708" src="https://www.youtube.com/embed/N2fMqyN_Ips" title="Les amicales nouveau festival" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <BorderBeam size={150} />
+           <BorderBeam size={150} />
             <BorderBeam size={150} delay={7} />
           </motion.div>
         </div>
