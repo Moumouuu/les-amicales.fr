@@ -3,7 +3,6 @@ import { Footer } from '~/components/home/footer'
 import { Hero } from '~/components/docs/hero_section'
 import { Companies } from '~/components/home/social_proof'
 
-
 export default function docs() {
   return (
     <>
