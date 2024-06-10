@@ -111,11 +111,11 @@ export function SiteHeader() {
             </a>
           </div>
           <button
-            className="ml-6 md:hidden"
+            className="ml-6"
             onClick={() => setHamburgerMenuIsOpen((open) => !open)}
           >
             <span className="sr-only">Menu</span>
-            {hamburgerMenuIsOpen ? <XIcon color="black" /> : <AlignJustify color="black" />}
+            {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
           </button>
         </div>
       </header>
@@ -138,11 +138,11 @@ export function SiteHeader() {
             </a>
 
             <button
-              className="ml-6 md:hidden"
+              className="ml-6"
               onClick={() => setHamburgerMenuIsOpen((open) => !open)}
             >
               <span className="sr-only">Menu</span>
-              {hamburgerMenuIsOpen ? <XIcon color="black" /> : <AlignJustify color="black" />}
+              {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
             </button>
           </div>
           <motion.ul
@@ -155,7 +155,7 @@ export function SiteHeader() {
               <motion.li
                 variants={mobileLinkVar}
                 key={item.id}
-                className="border-grey-dark pl-6 py-0.5 border-b md:border-none  color:grey-dark"
+                className="border-grey-dark pl-6 py-0.5 border-b md:border-none"
               >
                 <a
                   className={`hover:text-grey flex h-[var(--navigation-height)] w-full items-center text-xl transition-[color,transform] duration-300 md:translate-y-0 md:text-sm md:transition-colors ${hamburgerMenuIsOpen ? '[&_a]:translate-y-0' : ''
