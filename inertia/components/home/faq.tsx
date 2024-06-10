@@ -47,11 +47,12 @@ const faqs = [
     section: 'Documentation',
     qa: [
       {
-        question: 'Comment se procurer le kit',
+        question: 'Où puis-je trouver la documentation ?',
         answer: (
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim architecto sed a
-            maxime maiores eos incidunt vel, aut neque.
+            Nous avons prévu de créer un moteur de recherche spécialisé pour la robotique qui vous permet de trouver 
+            toutes les ressources que nous avons conçues autour de ce projet. Il sera disponible uniquement sur notre site internet 
+            mais accesisble à tous. Si vous possédez un compte utilisateur vous pourrez également accéder à des ressources exclusives.
           </span>
         ),
       },
@@ -64,9 +65,8 @@ const faqs = [
         question: 'Comment intégrer le programme',
         answer: (
           <span>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit ea nulla nostrum
-            molestiae dolorem tempora quasi quisquam deserunt, sunt magni soluta aspernatur
-            perferendis enim. Et magnam expedita quos adipisci nesciunt!
+            Pour intégrer le programme, il suffit de vous inscrire sur notre site internet. Vous pouvez
+            également nous contacter par mail.
           </span>
         ),
       },
