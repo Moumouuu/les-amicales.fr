@@ -115,7 +115,7 @@ export function SiteHeader() {
             onClick={() => setHamburgerMenuIsOpen((open) => !open)}
           >
             <span className="sr-only">Menu</span>
-            {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
+            {hamburgerMenuIsOpen ? <XIcon color="black"/> : <AlignJustify color="black"/>}
           </button>
         </div>
       </header>
@@ -142,7 +142,7 @@ export function SiteHeader() {
               onClick={() => setHamburgerMenuIsOpen((open) => !open)}
             >
               <span className="sr-only">Menu</span>
-              {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
+              {hamburgerMenuIsOpen ? <XIcon color="black"/> : <AlignJustify color="black" />}
             </button>
           </div>
           <motion.ul
