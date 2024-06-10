@@ -30,7 +30,7 @@ export function Hero() {
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
               <span>✨Saison 2023-2024 </span>
               <img src="https://amicales-rsk.vlamynck.fr/src/img/Ballon_tr2.png" alt="logo" 
-              className="transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400 w-8 h-8" />     
+              className="w-8 h-8" />     
             </AnimatedShinyText>
             <div className="flex flex-col items-center gap-6 pb-8 text-center">
             <img src="https://amicales-rsk.vlamynck.fr/src/img/Logo_tr.png" alt="logo" className="w-68 h-80" />
