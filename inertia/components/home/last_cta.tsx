@@ -146,7 +146,7 @@ export function LastCallToAction() {
                   Inscrivez-vous dès maintenant pour participer à notre prochain événement.
                 </p>
                 <a
-                  href="/"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSegtLg4LdKe8l07uQGihOPoOOBvAYKjPFQdRdVsJdCb6Cpo0Q/viewform?usp=pp_url"
                   className={cn(
                     buttonVariants({
                       size: 'lg',

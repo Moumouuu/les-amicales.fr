@@ -7,23 +7,23 @@ import { buttonVariants } from '../ui/button'
 const menuItem = [
   {
     id: 1,
-    label: 'Features',
-    href: '/features',
+    label: 'Défis',
+    href: 'https://amicup.github.io/documentation/challenge.html',
   },
   {
     id: 2,
-    label: 'Pricing',
-    href: '#',
+    label: 'Inscription',
+    href: 'https://amicales-rsk.vlamynck.fr/planning/',
   },
   {
     id: 3,
-    label: 'Careers',
-    href: '#',
+    label: 'Actualités',
+    href: 'https://amicales-rsk.vlamynck.fr/Actualit%C3%A9/',
   },
   {
     id: 4,
-    label: 'Contact Us',
-    href: '#',
+    label: 'Contact',
+    href: 'https://birds-audiovisuel.fr/contact',
   },
 ]
 
@@ -97,7 +97,6 @@ export function SiteHeader() {
       <header className="fixed left-0 top-0 z-50 w-full translate-y-[-1rem] animate-fade-in border-b opacity-0 backdrop-blur-[12px] [--animation-delay:600ms]">
         <div className="container flex h-[3.5rem] items-center justify-between">
           <a className="text-md flex items-center" href="/">
-            Magic UI
           </a>
 
           <div className="ml-auto flex h-full items-center">
@@ -115,7 +114,7 @@ export function SiteHeader() {
             className="ml-6 md:hidden"
             onClick={() => setHamburgerMenuIsOpen((open) => !open)}
           >
-            <span className="sr-only">Toggle menu</span>
+            <span className="sr-only">Menu</span>
             {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
           </button>
         </div>
@@ -135,14 +134,14 @@ export function SiteHeader() {
         >
           <div className="container flex h-[3.5rem] items-center justify-between">
             <a className="text-md flex items-center" href="/">
-              Magic UI
+              
             </a>
 
             <button
               className="ml-6 md:hidden"
               onClick={() => setHamburgerMenuIsOpen((open) => !open)}
             >
-              <span className="sr-only">Toggle menu</span>
+              <span className="sr-only">Menu</span>
               {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
             </button>
           </div>
@@ -159,9 +158,8 @@ export function SiteHeader() {
                 className="border-grey-dark pl-6 py-0.5 border-b md:border-none"
               >
                 <a
-                  className={`hover:text-grey flex h-[var(--navigation-height)] w-full items-center text-xl transition-[color,transform] duration-300 md:translate-y-0 md:text-sm md:transition-colors ${
-                    hamburgerMenuIsOpen ? '[&_a]:translate-y-0' : ''
-                  }`}
+                  className={`hover:text-grey flex h-[var(--navigation-height)] w-full items-center text-xl transition-[color,transform] duration-300 md:translate-y-0 md:text-sm md:transition-colors ${hamburgerMenuIsOpen ? '[&_a]:translate-y-0' : ''
+                    }`}
                   href={item.href}
                 >
                   {item.label}

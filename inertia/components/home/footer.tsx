@@ -11,8 +11,12 @@ const footerNavs = [
         name: 'FAQ',
       },
       {
-        href: 'mailto:support@birds-audiovisuel.fr',
+        href: 'mailto:contact@birds-audiovisuel.fr',
         name: 'Support',
+      },
+      {
+        href: 'https://discord.com/invite/8Ggzt8xezU',
+        name: 'Discord',
       },
     ],
   },
@@ -28,7 +32,7 @@ const footerNavs = [
         name: 'Blog',
       },
       {
-        href: '/contact',
+        href: 'birds-audiovisuel.fr/contact',
         name: 'Contact',
       },
     ],
@@ -59,7 +63,7 @@ const footerNavs = [
 
 const footerSocials = [
   {
-    href: '/',
+    href: 'https://discord.com/invite/8Ggzt8xezU',
     name: 'Discord',
     icon: 'https://img.icons8.com/?size=100&id=65646&format=png&color=000000',
   },

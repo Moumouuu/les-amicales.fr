@@ -28,8 +28,9 @@ export function Hero() {
         <div className="container z-10 flex flex-col">
           <div className="mt-20 grid grid-cols-1">
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-              <span>✨ Robocup 2024 édition </span>
-              <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+              <span>✨Saison 2023-2024 </span>
+              <img src="https://amicales-rsk.vlamynck.fr/src/img/Logo_tr.png" alt="logo" className="w-4 h-4" />
+              
             </AnimatedShinyText>
             <div className="flex flex-col items-center gap-6 pb-8 text-center">
               <motion.h1
@@ -45,7 +46,7 @@ export function Hero() {
                   type: 'spring',
                 }}
               >
-                Du foot, des robots <br /> <span className="font-semibold">un vainqueur !</span>
+                Une ligue, des robots <br /> <span className="font-semibold">une équipe !</span>
               </motion.h1>
 
               <motion.p
@@ -60,7 +61,7 @@ export function Hero() {
                   type: 'spring',
                 }}
               >
-                Un tournoi de foot regroupant des robots de différentes écoles et universités.
+                Un projet de bac -8 à bac +8 ouvert à toutes les ligues de la robocup.
               </motion.p>
 
               <motion.div
@@ -76,7 +77,7 @@ export function Hero() {
                 }}
               >
                 <a
-                  href="#"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSegtLg4LdKe8l07uQGihOPoOOBvAYKjPFQdRdVsJdCb6Cpo0Q/viewform?usp=pp_url"
                   className={cn(
                     // colors
                     'bg-black  text-white shadow hover:bg-black/90 ',

@@ -3,7 +3,7 @@ import { createInertiaApp } from '@inertiajs/react'
 import { hydrateRoot } from 'react-dom/client'
 import '../css/app.css'
 
-const appName = import.meta.env.VITE_APP_NAME || 'Les amicales'
+const appName = import.meta.env.VITE_APP_NAME || 'Les Amicales'
 
 createInertiaApp({
   progress: { color: '#5468FF' },

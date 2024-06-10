@@ -36,7 +36,7 @@ const faqs = [
         question: 'Comment nous contactez ?',
         answer: (
           <span>
-            Vous pouvez nous joindre sur notre discord <a href="">discord</a> ou par mail à
+            Vous pouvez nous joindre sur notre discord <a href="https://discord.com/invite/8Ggzt8xezU">discord</a> ou par mail à
             contact@birds-audiovisuel.fr
           </span>
         ),
@@ -111,7 +111,7 @@ export function FAQ() {
           </div>
           <h4 className="mb-12 text-center text-sm font-medium tracking-tight text-foreground/80">
             Besoin d'aide ? Contactez-nous à{' '}
-            <a href="mailto:support@example.com" className="underline">
+            <a href="mailto:contact@birds-audiovisuel.fr" className="underline">
               contact@birds-audiovisuel.fr
             </a>
           </h4>
