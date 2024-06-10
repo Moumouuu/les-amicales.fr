@@ -1,10 +1,8 @@
 import { Head } from '@inertiajs/react'
-import { FAQ } from '~/components/docs/faq'
-import { Footer } from '~/components/docs/footer'
+import { Footer } from '~/components/home/footer'
 import { Hero } from '~/components/docs/hero_section'
-import { LastCallToAction } from '~/components/docs/last_cta'
-import { Companies } from '~/components/docs/social_proof'
-import { TextRevealWord } from '~/components/docs/text_reveal_word'
+import { Companies } from '~/components/home/social_proof'
+
 
 export default function docs() {
   return (
@@ -14,9 +12,6 @@ export default function docs() {
       </Head>
       <Hero />
       <Companies />
-      <TextRevealWord />
-      <FAQ />
-      <LastCallToAction />
       <Footer />
     </>
   )
